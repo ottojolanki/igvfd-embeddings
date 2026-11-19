@@ -1,0 +1,67 @@
+# Free-text search benchmark. Relevance is defined by structured filters over the parsed fields
+# (all filters must match; each filter is "any of" the listed values, case-insensitive).
+# Queries are phrased the way a user would type them, NOT copied from field values, so the model
+# has to bridge vocabulary (e.g. "knockdown" -> CRISPR interference, "aortic endothelium" -> TeloHAEC).
+# Fields: type, assay_titles, assay_terms, assay_slims, sample_terms, targeted_terms, slims, taxa,
+#         genes, readout, modifications, treatments, phenotypes, file_set_type, workflows
+queries:
+  - q: CRISPR screens measuring cell proliferation
+    rel: {assay_slims: [CRISPR screens], readout: [cell population proliferation]}
+  - q: CRISPR knockdown screen with single-cell RNA-seq readout in aortic endothelial cells
+    rel: {modifications: [interference], readout: [scRNA-seq], sample_terms: [TeloHAEC]}
+  - q: saturation genome editing in haploid cells
+    rel: {assay_titles: [SGE, SGE-RNA], sample_terms: [HAP-1]}
+  - q: prime editing variant screens in T cells sorted on gene expression
+    rel: {modifications: [prime editing], sample_terms: [Jurkat]}
+  - q: Parkinson's disease brain single-nucleus multiome
+    rel: {assay_titles: [10x multiome], sample_terms: [substantia nigra, putamen, posterior cingulate gyrus, middle temporal gyrus, cerebellar cortex]}
+  - q: mouse snRNA-seq of skeletal muscle across strains
+    rel: {taxa: [Mus musculus], sample_terms: [gastrocnemius]}
+  - q: reporter assays testing regulatory element activity
+    rel: {assay_slims: [reporter]}
+  - q: deep mutational scanning of protein abundance
+    rel: {assay_titles: ["VAMP-seq", "VAMP-seq (MultiSTEP)"]}
+  - q: yeast two-hybrid protein interaction screens
+    rel: {assay_titles: [Pooled Y2H]}
+  - q: chromatin accessibility in bone marrow
+    rel: {assay_slims: [chromatin accessibility], sample_terms: [bone marrow]}
+  - q: gene expression response to inflammatory cytokine IL-1 beta
+    rel: {treatments: [interleukin-1 beta]}
+  - q: experiments with oxidized LDL treatment
+    rel: {treatments: [oxidised LDL]}
+  - q: CRISPR activation screens
+    rel: {modifications: [activation]}
+  - q: enhancer screens near PPIF
+    rel: {genes: [PPIF]}
+  - q: coagulation factor IX variant effects
+    rel: {genes: [F9]}
+  - q: iPSC-derived neurons
+    rel: {sample_terms: [induced pluripotent stem cell, GM25256 (WTC-11)], slims: [neural cell, brain]}
+  - q: single-cell DNA methylation and 3D genome conformation
+    rel: {assay_titles: [snM3C-seq]}
+  - q: metabolic labeling to measure RNA turnover in single cells
+    rel: {assay_titles: [scNT-seq2]}
+  - q: LDL uptake CRISPR screen in liver cells
+    rel: {readout: [LDL-C uptake]}
+  - q: predicted effects of variants on transcription factor binding
+    rel: {file_set_type: [variant TF binding effects]}
+  - q: colocalization of GWAS traits with gene expression across tissues
+    rel: {file_set_type: [disease associations]}
+  - q: enhancer-gene link predictions
+    rel: {file_set_type: [element-gene links]}
+  - q: calibrated pathogenicity scores for coding variants
+    rel: {file_set_type: [coding variants pathogenicity, coding variant effects]}
+  - q: B cell lymphoma line saturation editing
+    rel: {assay_titles: [Immune-SGE], sample_terms: [TMD8]}
+  - q: targeted protein degradation experiments
+    rel: {modifications: [degradation]}
+  - q: islet organoids treated with glucose
+    rel: {targeted_terms: [islet of Langerhans], treatments: [glucose]}
+  - q: CD8 T cell perturbation screens
+    rel: {sample_terms: ["CD8-positive, alpha-beta T cell", "CD8-positive, alpha-beta memory T cell"], assay_slims: [CRISPR screens]}
+  - q: pituitary and hypothalamus single-cell atlas
+    rel: {sample_terms: [pituitary gland, hypothalamus]}
+  - q: colon single-cell ATAC and RNA
+    rel: {sample_terms: [colon, transverse colon], assay_titles: [SHARE-seq, 10x multiome]}
+  - q: dexamethasone response
+    rel: {treatments: [dexamethasone]}

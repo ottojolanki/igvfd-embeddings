@@ -1,0 +1,14 @@
+# Large models: embed on the host Mac (MPS), evaluate anywhere (the cache is shared).
+#   host:    python -m igvfsim.embed --config configs/large.yaml --device mps
+#   then:    python -m igvfsim.experiments configs/large.yaml
+name: large
+max_group: 200
+pool: within
+runs:
+  - {name: qwen3-4b, model: Qwen/Qwen3-Embedding-4B, variant: full, facets: none}
+  - {name: qwen3-8b, model: Qwen/Qwen3-Embedding-8B, variant: full, facets: none, eyeball: true}
+  - {name: qwen3-8b-sym, model: Qwen/Qwen3-Embedding-8B, variant: full, prompt: sym_instruct, facets: none}
+  - {name: bge-large, model: BAAI/bge-large-en-v1.5, variant: full, facets: none}
+  - {name: qwen3-4b-hyb, model: Qwen/Qwen3-Embedding-4B, variant: full, facets: exact, w_emb: [0.3, 0.5, 0.7]}
+  - {name: qwen3-8b-hyb, model: Qwen/Qwen3-Embedding-8B, variant: full, facets: exact, w_emb: [0.3, 0.5, 0.7]}
+  - {name: qwen3-8b-structured_first, model: Qwen/Qwen3-Embedding-8B, variant: structured_first, facets: none}

@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+data/emb_cache/
+data/*.jsonl
+data/descriptions/
+results/*.npz
+.DS_Store
+.venv-host/

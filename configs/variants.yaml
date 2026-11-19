@@ -1,0 +1,17 @@
+# Text description variants (embeddings only), on the cheap model; best ones repeated on Qwen.
+name: variants
+max_group: 200
+pool: within
+runs:
+  - {name: bge-small-full, model: BAAI/bge-small-en-v1.5, variant: full, facets: none}
+  - {name: bge-small-no_description, model: BAAI/bge-small-en-v1.5, variant: no_description, facets: none}
+  - {name: bge-small-no_summary, model: BAAI/bge-small-en-v1.5, variant: no_summary, facets: none}
+  - {name: bge-small-structured_only, model: BAAI/bge-small-en-v1.5, variant: structured_only, facets: none}
+  - {name: bge-small-structured_first, model: BAAI/bge-small-en-v1.5, variant: structured_first, facets: none}
+  - {name: bge-small-free_text_only, model: BAAI/bge-small-en-v1.5, variant: free_text_only, facets: none}
+  - {name: bge-small-with_batch_ids, model: BAAI/bge-small-en-v1.5, variant: full_with_batch_ids, facets: none, note: "leakage check: higher proxy score here is not better similarity"}
+  - {name: qwen3-0.6b-structured_first, model: Qwen/Qwen3-Embedding-0.6B, variant: structured_first, facets: none}
+  - {name: qwen3-0.6b-no_description, model: Qwen/Qwen3-Embedding-0.6B, variant: no_description, facets: none}
+  - {name: bge-small-full_syn, model: BAAI/bge-small-en-v1.5, variant: full_syn, facets: none, note: "+ ontology synonyms"}
+  - {name: bge-small-full_defs, model: BAAI/bge-small-en-v1.5, variant: full_defs, facets: none, note: "+ ontology synonyms and definitions"}
+  - {name: qwen3-0.6b-full_defs, model: Qwen/Qwen3-Embedding-0.6B, variant: full_defs, facets: none, note: "+ ontology synonyms and definitions"}

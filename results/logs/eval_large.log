@@ -1,0 +1,14 @@
+large/qwen3-4b                                macroR@10=0.580 MRR=0.583 MS=0.526 AS=0.213 PS=1.000 lab@10=0.97 (2s)
+large/qwen3-8b                                macroR@10=0.566 MRR=0.576 MS=0.507 AS=0.208 PS=0.983 lab@10=0.97 (2s)
+   rankings -> results/large/qwen3-8b_rankings.md
+large/qwen3-8b-sym                            macroR@10=0.578 MRR=0.586 MS=0.528 AS=0.205 PS=1.000 lab@10=0.97 (2s)
+large/bge-large                               macroR@10=0.570 MRR=0.576 MS=0.507 AS=0.203 PS=1.000 lab@10=0.97 (2s)
+large/qwen3-4b-hyb@w0.3                       macroR@10=0.591 MRR=0.582 MS=0.563 AS=0.211 PS=0.999 lab@10=0.97 (4s)
+large/qwen3-4b-hyb@w0.5                       macroR@10=0.592 MRR=0.585 MS=0.563 AS=0.213 PS=0.999 lab@10=0.97 (4s)
+large/qwen3-4b-hyb@w0.7                       macroR@10=0.589 MRR=0.584 MS=0.549 AS=0.217 PS=1.000 lab@10=0.98 (4s)
+large/qwen3-8b-hyb@w0.3                       macroR@10=0.587 MRR=0.578 MS=0.551 AS=0.211 PS=0.999 lab@10=0.97 (4s)
+large/qwen3-8b-hyb@w0.5                       macroR@10=0.588 MRR=0.581 MS=0.550 AS=0.213 PS=0.999 lab@10=0.97 (4s)
+large/qwen3-8b-hyb@w0.7                       macroR@10=0.582 MRR=0.580 MS=0.531 AS=0.216 PS=1.000 lab@10=0.98 (4s)
+large/qwen3-8b-structured_first               macroR@10=0.573 MRR=0.577 MS=0.517 AS=0.211 PS=0.992 lab@10=0.97 (2s)
+wrote EXPERIMENTS.md: 70 proxy rows, 61 search rows
+EXP_DONE 0

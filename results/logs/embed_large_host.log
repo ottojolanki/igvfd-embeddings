@@ -1,0 +1,102 @@
+W1118 17:04:36.298000 62616 .venv-host/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   0%|          | 1/398 [00:00<03:22,  1.96it/s]Loading weights:  37%|███▋      | 146/398 [00:00<00:00, 300.91it/s]Loading weights:  54%|█████▎    | 213/398 [00:00<00:00, 294.03it/s]Loading weights:  66%|██████▌   | 263/398 [00:01<00:00, 310.35it/s]Loading weights:  77%|███████▋  | 307/398 [00:01<00:00, 309.28it/s]Loading weights:  87%|████████▋ | 347/398 [00:01<00:00, 293.38it/s]Loading weights:  96%|█████████▌| 382/398 [00:01<00:00, 294.16it/s]Loading weights: 100%|██████████| 398/398 [00:01<00:00, 271.53it/s]
+loaded Qwen/Qwen3-Embedding-4B on mps (fp16) in 3.4s
+  Qwen/Qwen3-Embedding-4B: 256/4297 encoded, 16.9 texts/s, ETA 4.0 min
+  Qwen/Qwen3-Embedding-4B: 512/4297 encoded, 16.7 texts/s, ETA 3.8 min
+  Qwen/Qwen3-Embedding-4B: 768/4297 encoded, 15.7 texts/s, ETA 3.7 min
+  Qwen/Qwen3-Embedding-4B: 1024/4297 encoded, 15.2 texts/s, ETA 3.6 min
+  Qwen/Qwen3-Embedding-4B: 1280/4297 encoded, 14.5 texts/s, ETA 3.5 min
+  Qwen/Qwen3-Embedding-4B: 1536/4297 encoded, 13.6 texts/s, ETA 3.4 min
+  Qwen/Qwen3-Embedding-4B: 1792/4297 encoded, 12.6 texts/s, ETA 3.3 min
+  Qwen/Qwen3-Embedding-4B: 2048/4297 encoded, 11.5 texts/s, ETA 3.3 min
+  Qwen/Qwen3-Embedding-4B: 2304/4297 encoded, 10.4 texts/s, ETA 3.2 min
+  Qwen/Qwen3-Embedding-4B: 2560/4297 encoded, 9.5 texts/s, ETA 3.0 min
+  Qwen/Qwen3-Embedding-4B: 2816/4297 encoded, 8.8 texts/s, ETA 2.8 min
+  Qwen/Qwen3-Embedding-4B: 3072/4297 encoded, 8.3 texts/s, ETA 2.5 min
+  Qwen/Qwen3-Embedding-4B: 3328/4297 encoded, 7.8 texts/s, ETA 2.1 min
+  Qwen/Qwen3-Embedding-4B: 3584/4297 encoded, 7.4 texts/s, ETA 1.6 min
+  Qwen/Qwen3-Embedding-4B: 3840/4297 encoded, 6.8 texts/s, ETA 1.1 min
+  Qwen/Qwen3-Embedding-4B: 4096/4297 encoded, 6.4 texts/s, ETA 0.5 min
+  Qwen/Qwen3-Embedding-4B: 4297/4297 encoded, 6.1 texts/s, ETA 0.0 min
+Qwen/Qwen3-Embedding-4B [full]: 12248 texts, 4297 unique, encoded 4297 on mps in 707.8s (6.1 texts/s); dim 2560
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   0%|          | 1/398 [00:01<06:43,  1.02s/it]Loading weights: 100%|██████████| 398/398 [00:01<00:00, 390.07it/s]
+loaded Qwen/Qwen3-Embedding-8B on mps (fp16) in 3.1s
+  Qwen/Qwen3-Embedding-8B: 256/4297 encoded, 7.7 texts/s, ETA 8.7 min
+  Qwen/Qwen3-Embedding-8B: 512/4297 encoded, 7.5 texts/s, ETA 8.4 min
+  Qwen/Qwen3-Embedding-8B: 768/4297 encoded, 7.1 texts/s, ETA 8.3 min
+  Qwen/Qwen3-Embedding-8B: 1024/4297 encoded, 6.9 texts/s, ETA 7.9 min
+  Qwen/Qwen3-Embedding-8B: 1280/4297 encoded, 6.5 texts/s, ETA 7.7 min
+  Qwen/Qwen3-Embedding-8B: 1536/4297 encoded, 6.1 texts/s, ETA 7.5 min
+  Qwen/Qwen3-Embedding-8B: 1792/4297 encoded, 5.7 texts/s, ETA 7.3 min
+  Qwen/Qwen3-Embedding-8B: 2048/4297 encoded, 5.3 texts/s, ETA 7.0 min
+  Qwen/Qwen3-Embedding-8B: 2304/4297 encoded, 5.0 texts/s, ETA 6.7 min
+  Qwen/Qwen3-Embedding-8B: 2560/4297 encoded, 4.7 texts/s, ETA 6.1 min
+  Qwen/Qwen3-Embedding-8B: 2816/4297 encoded, 4.5 texts/s, ETA 5.5 min
+  Qwen/Qwen3-Embedding-8B: 3072/4297 encoded, 4.3 texts/s, ETA 4.8 min
+  Qwen/Qwen3-Embedding-8B: 3328/4297 encoded, 4.1 texts/s, ETA 4.0 min
+  Qwen/Qwen3-Embedding-8B: 3584/4297 encoded, 3.9 texts/s, ETA 3.1 min
+  Qwen/Qwen3-Embedding-8B: 3840/4297 encoded, 3.6 texts/s, ETA 2.1 min
+  Qwen/Qwen3-Embedding-8B: 4096/4297 encoded, 3.4 texts/s, ETA 1.0 min
+  Qwen/Qwen3-Embedding-8B: 4297/4297 encoded, 3.2 texts/s, ETA 0.0 min
+Qwen/Qwen3-Embedding-8B [full]: 12248 texts, 4297 unique, encoded 4297 on mps in 1324.4s (3.2 texts/s); dim 4096
+  Qwen/Qwen3-Embedding-8B: 256/4297 encoded, 5.7 texts/s, ETA 11.7 min
+  Qwen/Qwen3-Embedding-8B: 512/4297 encoded, 5.7 texts/s, ETA 11.1 min
+  Qwen/Qwen3-Embedding-8B: 768/4297 encoded, 5.3 texts/s, ETA 11.0 min
+  Qwen/Qwen3-Embedding-8B: 1024/4297 encoded, 5.2 texts/s, ETA 10.4 min
+  Qwen/Qwen3-Embedding-8B: 1280/4297 encoded, 5.1 texts/s, ETA 9.9 min
+  Qwen/Qwen3-Embedding-8B: 1536/4297 encoded, 4.8 texts/s, ETA 9.5 min
+  Qwen/Qwen3-Embedding-8B: 1792/4297 encoded, 4.6 texts/s, ETA 9.2 min
+  Qwen/Qwen3-Embedding-8B: 2048/4297 encoded, 4.3 texts/s, ETA 8.7 min
+  Qwen/Qwen3-Embedding-8B: 2304/4297 encoded, 4.1 texts/s, ETA 8.1 min
+  Qwen/Qwen3-Embedding-8B: 2560/4297 encoded, 3.9 texts/s, ETA 7.4 min
+  Qwen/Qwen3-Embedding-8B: 2816/4297 encoded, 3.7 texts/s, ETA 6.6 min
+  Qwen/Qwen3-Embedding-8B: 3072/4297 encoded, 3.6 texts/s, ETA 5.7 min
+  Qwen/Qwen3-Embedding-8B: 3328/4297 encoded, 3.4 texts/s, ETA 4.7 min
+  Qwen/Qwen3-Embedding-8B: 3584/4297 encoded, 3.3 texts/s, ETA 3.6 min
+  Qwen/Qwen3-Embedding-8B: 3840/4297 encoded, 3.1 texts/s, ETA 2.4 min
+  Qwen/Qwen3-Embedding-8B: 4096/4297 encoded, 3.0 texts/s, ETA 1.1 min
+  Qwen/Qwen3-Embedding-8B: 4297/4297 encoded, 2.9 texts/s, ETA 0.0 min
+Qwen/Qwen3-Embedding-8B [full sym]: 12248 texts, 4297 unique, encoded 4297 on mps in 1506.9s (2.9 texts/s); dim 4096
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 9476.98it/s]
+loaded BAAI/bge-large-en-v1.5 on mps (fp16) in 30.4s
+  BAAI/bge-large-en-v1.5: 256/4297 encoded, 178.7 texts/s, ETA 0.4 min
+  BAAI/bge-large-en-v1.5: 512/4297 encoded, 173.2 texts/s, ETA 0.4 min
+  BAAI/bge-large-en-v1.5: 768/4297 encoded, 166.7 texts/s, ETA 0.4 min
+  BAAI/bge-large-en-v1.5: 1024/4297 encoded, 163.8 texts/s, ETA 0.3 min
+  BAAI/bge-large-en-v1.5: 1280/4297 encoded, 157.1 texts/s, ETA 0.3 min
+  BAAI/bge-large-en-v1.5: 1536/4297 encoded, 149.0 texts/s, ETA 0.3 min
+  BAAI/bge-large-en-v1.5: 1792/4297 encoded, 140.1 texts/s, ETA 0.3 min
+  BAAI/bge-large-en-v1.5: 2048/4297 encoded, 131.1 texts/s, ETA 0.3 min
+  BAAI/bge-large-en-v1.5: 2304/4297 encoded, 122.7 texts/s, ETA 0.3 min
+  BAAI/bge-large-en-v1.5: 2560/4297 encoded, 116.2 texts/s, ETA 0.2 min
+  BAAI/bge-large-en-v1.5: 2816/4297 encoded, 110.5 texts/s, ETA 0.2 min
+  BAAI/bge-large-en-v1.5: 3072/4297 encoded, 105.9 texts/s, ETA 0.2 min
+  BAAI/bge-large-en-v1.5: 3328/4297 encoded, 101.3 texts/s, ETA 0.2 min
+  BAAI/bge-large-en-v1.5: 3584/4297 encoded, 96.8 texts/s, ETA 0.1 min
+  BAAI/bge-large-en-v1.5: 3840/4297 encoded, 91.0 texts/s, ETA 0.1 min
+  BAAI/bge-large-en-v1.5: 4096/4297 encoded, 86.7 texts/s, ETA 0.0 min
+  BAAI/bge-large-en-v1.5: 4297/4297 encoded, 82.5 texts/s, ETA 0.0 min
+BAAI/bge-large-en-v1.5 [full]: 12248 texts, 4297 unique, encoded 4297 on mps in 52.1s (82.5 texts/s); dim 1024
+  Qwen/Qwen3-Embedding-8B: 256/4297 encoded, 8.3 texts/s, ETA 8.1 min
+  Qwen/Qwen3-Embedding-8B: 512/4297 encoded, 8.1 texts/s, ETA 7.8 min
+  Qwen/Qwen3-Embedding-8B: 768/4297 encoded, 7.5 texts/s, ETA 7.9 min
+  Qwen/Qwen3-Embedding-8B: 1024/4297 encoded, 7.1 texts/s, ETA 7.7 min
+  Qwen/Qwen3-Embedding-8B: 1280/4297 encoded, 6.6 texts/s, ETA 7.6 min
+  Qwen/Qwen3-Embedding-8B: 1536/4297 encoded, 6.1 texts/s, ETA 7.5 min
+  Qwen/Qwen3-Embedding-8B: 1792/4297 encoded, 5.7 texts/s, ETA 7.3 min
+  Qwen/Qwen3-Embedding-8B: 2048/4297 encoded, 5.3 texts/s, ETA 7.1 min
+  Qwen/Qwen3-Embedding-8B: 2304/4297 encoded, 5.0 texts/s, ETA 6.7 min
+  Qwen/Qwen3-Embedding-8B: 2560/4297 encoded, 4.7 texts/s, ETA 6.2 min
+  Qwen/Qwen3-Embedding-8B: 2816/4297 encoded, 4.4 texts/s, ETA 5.5 min
+  Qwen/Qwen3-Embedding-8B: 3072/4297 encoded, 4.2 texts/s, ETA 4.8 min
+  Qwen/Qwen3-Embedding-8B: 3328/4297 encoded, 4.0 texts/s, ETA 4.0 min
+  Qwen/Qwen3-Embedding-8B: 3584/4297 encoded, 3.8 texts/s, ETA 3.1 min
+  Qwen/Qwen3-Embedding-8B: 3840/4297 encoded, 3.6 texts/s, ETA 2.1 min
+  Qwen/Qwen3-Embedding-8B: 4096/4297 encoded, 3.4 texts/s, ETA 1.0 min
+  Qwen/Qwen3-Embedding-8B: 4297/4297 encoded, 3.2 texts/s, ETA 0.0 min
+Qwen/Qwen3-Embedding-8B [structured_first]: 12248 texts, 4297 unique, encoded 4297 on mps in 1328.5s (3.2 texts/s); dim 4096
+  Qwen/Qwen3-Embedding-4B: 30/30 encoded, 31.8 texts/s, ETA 0.0 min
+  Qwen/Qwen3-Embedding-8B: 30/30 encoded, 17.1 texts/s, ETA 0.0 min
+  BAAI/bge-large-en-v1.5: 30/30 encoded, 289.8 texts/s, ETA 0.0 min
+cached 30 search queries for 3 model(s)

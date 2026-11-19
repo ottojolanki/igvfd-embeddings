@@ -1,0 +1,153 @@
+{
+ "kind": "proxy",
+ "run_id": "variants/bge-small-with_batch_ids",
+ "model": "BAAI/bge-small-en-v1.5",
+ "device": "cpu",
+ "variant": "full_with_batch_ids",
+ "facets": null,
+ "w_emb": 1.0,
+ "pool": "within",
+ "embed_s": "141.6 (8771 uniq)",
+ "eval_s": 1.931990385055542,
+ "note": "leakage check: higher proxy score here is not better similarity",
+ "metrics": {
+  "MeasurementSet": {
+   "n_queries": 6402,
+   "pool": 7938,
+   "R@10": 0.537240222549501,
+   "MRR": 0.5563175767317268,
+   "nDCG@10": 0.5194231720543308,
+   "assay@10": 0.9907685098406748,
+   "biosample@10": 0.9708997188378633,
+   "lab@10": 0.9867697594501719,
+   "R@10_ci": [
+    0.5262857124261763,
+    0.5481580811799884
+   ],
+   "MRR_ci": [
+    0.5452001998039626,
+    0.5682764328966723
+   ],
+   "by_source": {
+    "publication": {
+     "n": 585,
+     "R@10": 0.918119658119658,
+     "MRR": 0.9859306742640075
+    },
+    "analysis_input": {
+     "n": 6065,
+     "R@10": 0.5525012758607153,
+     "MRR": 0.5668255275487407
+    },
+    "related": {
+     "n": 2589,
+     "R@10": 0.0810461844065552,
+     "MRR": 0.053439101994966175
+    },
+    "collection": {
+     "n": 113,
+     "R@10": 0.892920353982301,
+     "MRR": 0.969346116027532
+    }
+   }
+  },
+  "AnalysisSet": {
+   "n_queries": 3115,
+   "pool": 3877,
+   "R@10": 0.21822874468139314,
+   "MRR": 0.211933006568138,
+   "nDCG@10": 0.1828323426289198,
+   "assay@10": 0.9827608346709471,
+   "biosample@10": 0.9666773675762439,
+   "lab@10": 0.9816372391653291,
+   "R@10_ci": [
+    0.2046982598282759,
+    0.23192824020994168
+   ],
+   "MRR_ci": [
+    0.1999485762198043,
+    0.22490249512156657
+   ],
+   "by_source": {
+    "publication": {
+     "n": 241,
+     "R@10": 0.8242047026279391,
+     "MRR": 0.948892365598712
+    },
+    "analysis_input": {
+     "n": 2937,
+     "R@10": 0.17534521242386408,
+     "MRR": 0.15830261056170847
+    },
+    "collection": {
+     "n": 3,
+     "R@10": 0.6666666666666666,
+     "MRR": 0.5303030303030303
+    }
+   }
+  },
+  "PredictionSet": {
+   "n_queries": 118,
+   "pool": 433,
+   "R@10": 1.0,
+   "MRR": 0.9915254237288136,
+   "nDCG@10": 0.9937445720944315,
+   "assay@10": 0.9567796610169492,
+   "biosample@10": 0.8525423728813559,
+   "lab@10": 0.9550847457627119,
+   "R@10_ci": [
+    1.0,
+    1.0
+   ],
+   "MRR_ci": [
+    0.9788135593220338,
+    1.0
+   ],
+   "by_source": {
+    "publication": {
+     "n": 118,
+     "R@10": 1.0,
+     "MRR": 0.9915254237288136
+    }
+   }
+  },
+  "macro": {
+   "R@10": 0.585156322410298,
+   "MRR": 0.5865920023428928,
+   "nDCG@10": 0.5653333622592274,
+   "assay@10": 0.9767696685095237,
+   "biosample@10": 0.9300398197651543,
+   "lab@10": 0.9744972481260709
+  }
+ },
+ "config": {
+  "name": "bge-small-with_batch_ids",
+  "model": "BAAI/bge-small-en-v1.5",
+  "variant": "full_with_batch_ids",
+  "facets": "none",
+  "note": "leakage check: higher proxy score here is not better similarity"
+ },
+ "positives": {
+  "publication": {
+   "groups": 28,
+   "dropped_groups": 1,
+   "pairs": 69668
+  },
+  "analysis_input": {
+   "groups": 5506,
+   "dropped_groups": 3,
+   "pairs": 496882
+  },
+  "related": {
+   "groups": 2850,
+   "dropped_groups": 0,
+   "pairs": 5700
+  },
+  "collection": {
+   "groups": 3,
+   "dropped_groups": 2,
+   "pairs": 7450
+  }
+ },
+ "date": "2026-11-18T15:45:27"
+}

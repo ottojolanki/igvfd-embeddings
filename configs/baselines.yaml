@@ -1,0 +1,16 @@
+# Floors, ceilings, lexical and facet-only baselines. Cheap: runs in seconds on CPU.
+name: baselines
+max_group: 200
+pool: within
+runs:
+  - {name: random, embedder: random, note: "floor"}
+  - {name: oracle, embedder: oracle, note: "uses the hidden links; sanity check, must be 1.0"}
+  - {name: ceiling-full, embedder: text_ceiling, variant: full, note: "best possible text-only score for variant full (identical descriptions are indistinguishable)"}
+  - {name: ceiling-structured, embedder: text_ceiling, variant: structured_only, note: "ceiling for structured_only"}
+  - {name: ceiling-batch-ids, embedder: text_ceiling, variant: full_with_batch_ids, note: "ceiling if batch IDs are left in: proxies become batch-matching"}
+  - {name: facets-exact, embedder: none, facets: exact, note: "prototype facet weights"}
+  - {name: facets-onto, embedder: none, facets: onto, note: "ontology soft match (IDF-weighted ancestor Jaccard) for biosample+assay"}
+  - {name: facets-onto-only, embedder: none, facets: onto_only, note: "biosample matched only through ancestors"}
+  - {name: tfidf, embedder: tfidf, variant: full, facets: none, note: "lexical baseline"}
+  - {name: bm25, embedder: bm25, variant: full, facets: none, note: "lexical baseline"}
+  - {name: tfidf-hybrid, embedder: tfidf, variant: full, facets: exact, w_emb: [0.3, 0.5, 0.7]}

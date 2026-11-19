@@ -1,0 +1,21 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 5372.09it/s]
+loaded Qwen/Qwen3-Embedding-0.6B on cpu in 1.5s
+  Qwen/Qwen3-Embedding-0.6B: 256/4297 encoded, 13.6 texts/s, ETA 5.0 min
+  Qwen/Qwen3-Embedding-0.6B: 512/4297 encoded, 13.4 texts/s, ETA 4.7 min
+  Qwen/Qwen3-Embedding-0.6B: 768/4297 encoded, 12.8 texts/s, ETA 4.6 min
+  Qwen/Qwen3-Embedding-0.6B: 1024/4297 encoded, 12.6 texts/s, ETA 4.3 min
+  Qwen/Qwen3-Embedding-0.6B: 1280/4297 encoded, 12.2 texts/s, ETA 4.1 min
+  Qwen/Qwen3-Embedding-0.6B: 1536/4297 encoded, 11.7 texts/s, ETA 3.9 min
+  Qwen/Qwen3-Embedding-0.6B: 1792/4297 encoded, 11.2 texts/s, ETA 3.7 min
+  Qwen/Qwen3-Embedding-0.6B: 2048/4297 encoded, 10.6 texts/s, ETA 3.5 min
+  Qwen/Qwen3-Embedding-0.6B: 2304/4297 encoded, 10.0 texts/s, ETA 3.3 min
+  Qwen/Qwen3-Embedding-0.6B: 2560/4297 encoded, 9.5 texts/s, ETA 3.1 min
+  Qwen/Qwen3-Embedding-0.6B: 2816/4297 encoded, 9.0 texts/s, ETA 2.7 min
+  Qwen/Qwen3-Embedding-0.6B: 3072/4297 encoded, 8.6 texts/s, ETA 2.4 min
+  Qwen/Qwen3-Embedding-0.6B: 3328/4297 encoded, 8.3 texts/s, ETA 2.0 min
+  Qwen/Qwen3-Embedding-0.6B: 3584/4297 encoded, 7.8 texts/s, ETA 1.5 min
+  Qwen/Qwen3-Embedding-0.6B: 3840/4297 encoded, 7.4 texts/s, ETA 1.0 min
+  Qwen/Qwen3-Embedding-0.6B: 4096/4297 encoded, 6.9 texts/s, ETA 0.5 min
+  Qwen/Qwen3-Embedding-0.6B: 4297/4297 encoded, 6.6 texts/s, ETA 0.0 min
+Qwen/Qwen3-Embedding-0.6B [full]: 12248 texts, 4297 unique, encoded 4297 on cpu in 649.4s (6.6 texts/s); dim 1024

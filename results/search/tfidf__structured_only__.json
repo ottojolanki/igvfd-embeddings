@@ -1,0 +1,198 @@
+{
+ "kind": "search",
+ "run_id": "search/tfidf[structured_only]",
+ "model": "tfidf(1-2gram)",
+ "device": "cpu",
+ "metrics": {
+  "P@10": 0.43666666666666665,
+  "nDCG@10": 0.6266408363908335,
+  "R@100": 0.7634022613041952,
+  "MRR": 0.6999135880372903
+ },
+ "per_query": {
+  "CRISPR screens measuring cell proliferation": {
+   "P@10": 0.7,
+   "nDCG@10": 0.9999999999999999,
+   "R@100": 1.0,
+   "MRR": 1.0
+  },
+  "CRISPR knockdown screen with single-cell RNA-seq readout in aortic endothelial cells": {
+   "P@10": 0.4,
+   "nDCG@10": 0.9178287402913374,
+   "R@100": 1.0,
+   "MRR": 1.0
+  },
+  "saturation genome editing in haploid cells": {
+   "P@10": 0.4,
+   "nDCG@10": 0.9828920819566879,
+   "R@100": 1.0,
+   "MRR": 1.0
+  },
+  "prime editing variant screens in T cells sorted on gene expression": {
+   "P@10": 0.4,
+   "nDCG@10": 0.5426309012477634,
+   "R@100": 1.0,
+   "MRR": 1.0
+  },
+  "Parkinson's disease brain single-nucleus multiome": {
+   "P@10": 1.0,
+   "nDCG@10": 1.0,
+   "R@100": 0.900990099009901,
+   "MRR": 1.0
+  },
+  "mouse snRNA-seq of skeletal muscle across strains": {
+   "P@10": 0.1,
+   "nDCG@10": 0.07336392209936006,
+   "R@100": 0.225,
+   "MRR": 0.14285714285714285
+  },
+  "reporter assays testing regulatory element activity": {
+   "P@10": 0.1,
+   "nDCG@10": 0.13886244387355456,
+   "R@100": 0.9565217391304348,
+   "MRR": 0.5
+  },
+  "deep mutational scanning of protein abundance": {
+   "P@10": 0.0,
+   "nDCG@10": 0.0,
+   "R@100": 1.0,
+   "MRR": 0.024390243902439025
+  },
+  "yeast two-hybrid protein interaction screens": {
+   "P@10": 0.2,
+   "nDCG@10": 0.6364391809889587,
+   "R@100": 1.0,
+   "MRR": 1.0
+  },
+  "chromatin accessibility in bone marrow": {
+   "P@10": 0.4,
+   "nDCG@10": 0.9619991470595832,
+   "R@100": 1.0,
+   "MRR": 1.0
+  },
+  "gene expression response to inflammatory cytokine IL-1 beta": {
+   "P@10": 0.2,
+   "nDCG@10": 0.23365080824310536,
+   "R@100": 0.4,
+   "MRR": 0.5
+  },
+  "experiments with oxidized LDL treatment": {
+   "P@10": 0.5,
+   "nDCG@10": 0.975788054854922,
+   "R@100": 1.0,
+   "MRR": 1.0
+  },
+  "CRISPR activation screens": {
+   "P@10": 1.0,
+   "nDCG@10": 1.0,
+   "R@100": 0.7083333333333334,
+   "MRR": 1.0
+  },
+  "enhancer screens near PPIF": {
+   "P@10": 0.6,
+   "nDCG@10": 0.9999999999999999,
+   "R@100": 1.0,
+   "MRR": 1.0
+  },
+  "coagulation factor IX variant effects": {
+   "P@10": 0.0,
+   "nDCG@10": 0.0,
+   "R@100": 0.0,
+   "MRR": 0.003048780487804878
+  },
+  "iPSC-derived neurons": {
+   "P@10": 0.0,
+   "nDCG@10": 0.0,
+   "R@100": 0.12903225806451613,
+   "MRR": 0.022727272727272728
+  },
+  "single-cell DNA methylation and 3D genome conformation": {
+   "P@10": 0.7,
+   "nDCG@10": 0.5676818677290052,
+   "R@100": 1.0,
+   "MRR": 0.3333333333333333
+  },
+  "metabolic labeling to measure RNA turnover in single cells": {
+   "P@10": 0.4,
+   "nDCG@10": 0.6020941629041775,
+   "R@100": 0.4444444444444444,
+   "MRR": 1.0
+  },
+  "LDL uptake CRISPR screen in liver cells": {
+   "P@10": 0.4,
+   "nDCG@10": 1.0,
+   "R@100": 1.0,
+   "MRR": 1.0
+  },
+  "predicted effects of variants on transcription factor binding": {
+   "P@10": 0.0,
+   "nDCG@10": 0.0,
+   "R@100": 0.3963963963963964,
+   "MRR": 0.07692307692307693
+  },
+  "colocalization of GWAS traits with gene expression across tissues": {
+   "P@10": 0.0,
+   "nDCG@10": 0.0,
+   "R@100": 0.0,
+   "MRR": 0.0012706480304955528
+  },
+  "enhancer-gene link predictions": {
+   "P@10": 0.2,
+   "nDCG@10": 0.35895421017163476,
+   "R@100": 0.3561643835616438,
+   "MRR": 1.0
+  },
+  "calibrated pathogenicity scores for coding variants": {
+   "P@10": 0.5,
+   "nDCG@10": 1.0,
+   "R@100": 1.0,
+   "MRR": 1.0
+  },
+  "B cell lymphoma line saturation editing": {
+   "P@10": 0.2,
+   "nDCG@10": 0.48247555939075504,
+   "R@100": 1.0,
+   "MRR": 0.25
+  },
+  "targeted protein degradation experiments": {
+   "P@10": 1.0,
+   "nDCG@10": 1.0,
+   "R@100": 1.0,
+   "MRR": 1.0
+  },
+  "islet organoids treated with glucose": {
+   "P@10": 1.0,
+   "nDCG@10": 1.0,
+   "R@100": 1.0,
+   "MRR": 1.0
+  },
+  "CD8 T cell perturbation screens": {
+   "P@10": 0.8,
+   "nDCG@10": 0.949671989333555,
+   "R@100": 1.0,
+   "MRR": 1.0
+  },
+  "pituitary and hypothalamus single-cell atlas": {
+   "P@10": 1.0,
+   "nDCG@10": 1.0,
+   "R@100": 0.3851851851851852,
+   "MRR": 1.0
+  },
+  "colon single-cell ATAC and RNA": {
+   "P@10": 0.4,
+   "nDCG@10": 0.37489202158060475,
+   "R@100": 1.0,
+   "MRR": 0.14285714285714285
+  },
+  "dexamethasone response": {
+   "P@10": 0.5,
+   "nDCG@10": 1.0,
+   "R@100": 1.0,
+   "MRR": 1.0
+  }
+ },
+ "date": "2026-11-18T15:46:14",
+ "variant": "structured_only",
+ "n_queries": 30,
+ "n_docs": 1558
+}

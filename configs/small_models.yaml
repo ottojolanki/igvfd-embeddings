@@ -1,0 +1,17 @@
+# Models that run on the sandbox CPU (<= ~0.6B params). Embeddings are cached, so reruns are cheap.
+name: small
+max_group: 200
+pool: within
+runs:
+  # --- embeddings only
+  - {name: bge-small, model: BAAI/bge-small-en-v1.5, variant: full, facets: none, eyeball: true}
+  - {name: bge-base, model: BAAI/bge-base-en-v1.5, variant: full, facets: none}
+  - {name: e5-base-v2, model: intfloat/e5-base-v2, variant: full, facets: none, note: "replaces nomic-embed-text-v1.5 (its remote code is incompatible with transformers 5.x)"}
+  - {name: pubmedbert, model: NeuML/pubmedbert-base-embeddings, variant: full, facets: none, note: "biomedical domain model"}
+  - {name: qwen3-0.6b, model: Qwen/Qwen3-Embedding-0.6B, variant: full, facets: none, eyeball: true}
+  - {name: qwen3-0.6b-sym, model: Qwen/Qwen3-Embedding-0.6B, variant: full, prompt: sym_instruct, facets: none, note: "symmetric doc-doc instruction on both sides"}
+  # --- hybrid sweeps (w_emb = 0 is facets only, 1 is embeddings only)
+  - {name: bge-small-hyb, model: BAAI/bge-small-en-v1.5, variant: full, facets: exact, w_emb: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]}
+  - {name: bge-small-hyb-onto, model: BAAI/bge-small-en-v1.5, variant: full, facets: onto, w_emb: [0.3, 0.5, 0.7]}
+  - {name: qwen3-0.6b-hyb, model: Qwen/Qwen3-Embedding-0.6B, variant: full, facets: exact, w_emb: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9], eyeball: true, eyeball_w: 0.5}
+  - {name: qwen3-0.6b-hyb-onto, model: Qwen/Qwen3-Embedding-0.6B, variant: full, facets: onto, w_emb: [0.3, 0.5, 0.7]}

@@ -1,0 +1,151 @@
+{
+ "run_id": "baselines/ceiling-batch-ids",
+ "model": "text ceiling (oracle over identical texts)",
+ "device": null,
+ "variant": "full_with_batch_ids",
+ "facets": null,
+ "w_emb": 1.0,
+ "pool": "within",
+ "embed_s": "\u2014",
+ "eval_s": 1.4980583190917969,
+ "note": "ceiling if batch IDs are left in: proxies become batch-matching",
+ "metrics": {
+  "MeasurementSet": {
+   "n_queries": 6402,
+   "pool": 7938,
+   "R@10": 0.9392351348536916,
+   "MRR": 0.9597484684655998,
+   "nDCG@10": 0.9177052240193895,
+   "assay@10": 0.6616057482036865,
+   "biosample@10": 0.6638394251796313,
+   "lab@10": 0.6834582942830365,
+   "R@10_ci": [
+    0.9344417760074976,
+    0.9436407242528377
+   ],
+   "MRR_ci": [
+    0.9555287241243787,
+    0.9637658947677396
+   ],
+   "by_source": {
+    "publication": {
+     "n": 585,
+     "R@10": 0.9663247863247862,
+     "MRR": 0.9951566951566951
+    },
+    "analysis_input": {
+     "n": 6065,
+     "R@10": 0.8865078710791819,
+     "MRR": 0.9374182235907952
+    },
+    "related": {
+     "n": 2589,
+     "R@10": 0.927076091154886,
+     "MRR": 0.876489102504734
+    },
+    "collection": {
+     "n": 113,
+     "R@10": 0.9035398230088497,
+     "MRR": 1.0
+    }
+   }
+  },
+  "AnalysisSet": {
+   "n_queries": 3115,
+   "pool": 3877,
+   "R@10": 0.9819261637239165,
+   "MRR": 0.9681299066584697,
+   "nDCG@10": 0.968035979479617,
+   "assay@10": 0.7033065810593899,
+   "biosample@10": 0.5273836276083468,
+   "lab@10": 0.6785874799357945,
+   "R@10_ci": [
+    0.977045746388443,
+    0.986454253611557
+   ],
+   "MRR_ci": [
+    0.9625955876649841,
+    0.9737299232728114
+   ],
+   "by_source": {
+    "publication": {
+     "n": 241,
+     "R@10": 0.9912863070539419,
+     "MRR": 0.995850622406639
+    },
+    "analysis_input": {
+     "n": 2937,
+     "R@10": 0.9720187428052598,
+     "MRR": 0.9567533261508906
+    },
+    "collection": {
+     "n": 3,
+     "R@10": 1.0,
+     "MRR": 1.0
+    }
+   }
+  },
+  "PredictionSet": {
+   "n_queries": 118,
+   "pool": 433,
+   "R@10": 1.0,
+   "MRR": 1.0,
+   "nDCG@10": 1.0,
+   "assay@10": 0.947457627118644,
+   "biosample@10": 0.8415254237288137,
+   "lab@10": 0.9440677966101694,
+   "R@10_ci": [
+    1.0,
+    1.0
+   ],
+   "MRR_ci": [
+    1.0,
+    1.0
+   ],
+   "by_source": {
+    "publication": {
+     "n": 118,
+     "R@10": 1.0,
+     "MRR": 1.0
+    }
+   }
+  },
+  "macro": {
+   "R@10": 0.9737204328592027,
+   "MRR": 0.9759594583746898,
+   "nDCG@10": 0.9619137344996688,
+   "assay@10": 0.7707899854605734,
+   "biosample@10": 0.6775828255055973,
+   "lab@10": 0.7687045236096668
+  }
+ },
+ "config": {
+  "name": "ceiling-batch-ids",
+  "embedder": "text_ceiling",
+  "variant": "full_with_batch_ids",
+  "note": "ceiling if batch IDs are left in: proxies become batch-matching"
+ },
+ "positives": {
+  "publication": {
+   "groups": 28,
+   "dropped_groups": 1,
+   "pairs": 69668
+  },
+  "analysis_input": {
+   "groups": 5506,
+   "dropped_groups": 3,
+   "pairs": 496882
+  },
+  "related": {
+   "groups": 2850,
+   "dropped_groups": 0,
+   "pairs": 5700
+  },
+  "collection": {
+   "groups": 3,
+   "dropped_groups": 2,
+   "pairs": 7450
+  }
+ },
+ "date": "2026-11-18T15:19:32"
+}

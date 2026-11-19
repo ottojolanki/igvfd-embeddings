@@ -1,0 +1,13 @@
+# Pinned for linux-aarch64 (sandbox) and macOS arm64 (host, MPS). Python 3.12.
+numpy==2.5.5
+scipy==1.18.1
+scikit-learn==1.9.1
+torch==2.15.0
+transformers==5.23.0
+sentence-transformers==6.3.0
+tokenizers==0.23.3
+huggingface-hub==2.4.0
+einops==0.8.2
+pyyaml==6.0.3
+requests==2.34.2
+pytest==8.4.2

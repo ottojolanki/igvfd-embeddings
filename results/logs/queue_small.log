@@ -1,0 +1,327 @@
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12175.49it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+loaded BAAI/bge-small-en-v1.5 on cpu in 0.5s
+  BAAI/bge-small-en-v1.5: 256/1622 encoded, 140.4 texts/s, ETA 0.2 min
+  BAAI/bge-small-en-v1.5: 512/1622 encoded, 94.9 texts/s, ETA 0.2 min
+  BAAI/bge-small-en-v1.5: 768/1622 encoded, 51.5 texts/s, ETA 0.3 min
+  BAAI/bge-small-en-v1.5: 1024/1622 encoded, 38.3 texts/s, ETA 0.3 min
+  BAAI/bge-small-en-v1.5: 1280/1622 encoded, 32.6 texts/s, ETA 0.2 min
+  BAAI/bge-small-en-v1.5: 1536/1622 encoded, 30.3 texts/s, ETA 0.0 min
+  BAAI/bge-small-en-v1.5: 1622/1622 encoded, 29.4 texts/s, ETA 0.0 min
+  BAAI/bge-small-en-v1.5: 256/4077 encoded, 50.3 texts/s, ETA 1.3 min
+  BAAI/bge-small-en-v1.5: 512/4077 encoded, 41.7 texts/s, ETA 1.4 min
+  BAAI/bge-small-en-v1.5: 768/4077 encoded, 37.2 texts/s, ETA 1.5 min
+  BAAI/bge-small-en-v1.5: 1024/4077 encoded, 34.0 texts/s, ETA 1.5 min
+  BAAI/bge-small-en-v1.5: 1280/4077 encoded, 32.5 texts/s, ETA 1.4 min
+  BAAI/bge-small-en-v1.5: 1536/4077 encoded, 32.9 texts/s, ETA 1.3 min
+  BAAI/bge-small-en-v1.5: 1792/4077 encoded, 33.1 texts/s, ETA 1.2 min
+  BAAI/bge-small-en-v1.5: 2048/4077 encoded, 33.7 texts/s, ETA 1.0 min
+  BAAI/bge-small-en-v1.5: 2304/4077 encoded, 35.9 texts/s, ETA 0.8 min
+  BAAI/bge-small-en-v1.5: 2560/4077 encoded, 37.8 texts/s, ETA 0.7 min
+  BAAI/bge-small-en-v1.5: 2816/4077 encoded, 39.3 texts/s, ETA 0.5 min
+  BAAI/bge-small-en-v1.5: 3072/4077 encoded, 40.5 texts/s, ETA 0.4 min
+  BAAI/bge-small-en-v1.5: 3328/4077 encoded, 41.5 texts/s, ETA 0.3 min
+  BAAI/bge-small-en-v1.5: 3584/4077 encoded, 41.7 texts/s, ETA 0.2 min
+  BAAI/bge-small-en-v1.5: 3840/4077 encoded, 41.8 texts/s, ETA 0.1 min
+  BAAI/bge-small-en-v1.5: 4077/4077 encoded, 41.5 texts/s, ETA 0.0 min
+  BAAI/bge-small-en-v1.5: 256/1549 encoded, 167.9 texts/s, ETA 0.1 min
+  BAAI/bge-small-en-v1.5: 512/1549 encoded, 145.0 texts/s, ETA 0.1 min
+  BAAI/bge-small-en-v1.5: 768/1549 encoded, 134.9 texts/s, ETA 0.1 min
+  BAAI/bge-small-en-v1.5: 1024/1549 encoded, 125.4 texts/s, ETA 0.1 min
+  BAAI/bge-small-en-v1.5: 1280/1549 encoded, 115.3 texts/s, ETA 0.0 min
+  BAAI/bge-small-en-v1.5: 1536/1549 encoded, 106.4 texts/s, ETA 0.0 min
+  BAAI/bge-small-en-v1.5: 1549/1549 encoded, 105.5 texts/s, ETA 0.0 min
+  BAAI/bge-small-en-v1.5: 256/4297 encoded, 112.8 texts/s, ETA 0.6 min
+  BAAI/bge-small-en-v1.5: 512/4297 encoded, 117.8 texts/s, ETA 0.5 min
+  BAAI/bge-small-en-v1.5: 768/4297 encoded, 114.5 texts/s, ETA 0.5 min
+  BAAI/bge-small-en-v1.5: 1024/4297 encoded, 113.1 texts/s, ETA 0.5 min
+  BAAI/bge-small-en-v1.5: 1280/4297 encoded, 109.6 texts/s, ETA 0.5 min
+  BAAI/bge-small-en-v1.5: 1536/4297 encoded, 105.8 texts/s, ETA 0.4 min
+  BAAI/bge-small-en-v1.5: 1792/4297 encoded, 101.2 texts/s, ETA 0.4 min
+  BAAI/bge-small-en-v1.5: 2048/4297 encoded, 96.5 texts/s, ETA 0.4 min
+  BAAI/bge-small-en-v1.5: 2304/4297 encoded, 91.8 texts/s, ETA 0.4 min
+  BAAI/bge-small-en-v1.5: 2560/4297 encoded, 86.1 texts/s, ETA 0.3 min
+  BAAI/bge-small-en-v1.5: 2816/4297 encoded, 81.1 texts/s, ETA 0.3 min
+  BAAI/bge-small-en-v1.5: 3072/4297 encoded, 76.5 texts/s, ETA 0.3 min
+  BAAI/bge-small-en-v1.5: 3328/4297 encoded, 70.9 texts/s, ETA 0.2 min
+  BAAI/bge-small-en-v1.5: 3584/4297 encoded, 66.6 texts/s, ETA 0.2 min
+  BAAI/bge-small-en-v1.5: 3840/4297 encoded, 63.9 texts/s, ETA 0.1 min
+  BAAI/bge-small-en-v1.5: 4096/4297 encoded, 61.6 texts/s, ETA 0.1 min
+  BAAI/bge-small-en-v1.5: 4297/4297 encoded, 59.4 texts/s, ETA 0.0 min
+  BAAI/bge-small-en-v1.5: 256/3812 encoded, 164.2 texts/s, ETA 0.4 min
+  BAAI/bge-small-en-v1.5: 512/3812 encoded, 158.2 texts/s, ETA 0.3 min
+  BAAI/bge-small-en-v1.5: 768/3812 encoded, 146.3 texts/s, ETA 0.3 min
+  BAAI/bge-small-en-v1.5: 1024/3812 encoded, 147.9 texts/s, ETA 0.3 min
+  BAAI/bge-small-en-v1.5: 1280/3812 encoded, 144.4 texts/s, ETA 0.3 min
+  BAAI/bge-small-en-v1.5: 1536/3812 encoded, 140.4 texts/s, ETA 0.3 min
+  BAAI/bge-small-en-v1.5: 1792/3812 encoded, 137.9 texts/s, ETA 0.2 min
+  BAAI/bge-small-en-v1.5: 2048/3812 encoded, 136.2 texts/s, ETA 0.2 min
+  BAAI/bge-small-en-v1.5: 2304/3812 encoded, 132.5 texts/s, ETA 0.2 min
+  BAAI/bge-small-en-v1.5: 2560/3812 encoded, 122.0 texts/s, ETA 0.2 min
+  BAAI/bge-small-en-v1.5: 2816/3812 encoded, 112.0 texts/s, ETA 0.1 min
+  BAAI/bge-small-en-v1.5: 3072/3812 encoded, 101.9 texts/s, ETA 0.1 min
+  BAAI/bge-small-en-v1.5: 3328/3812 encoded, 96.8 texts/s, ETA 0.1 min
+  BAAI/bge-small-en-v1.5: 3584/3812 encoded, 91.5 texts/s, ETA 0.0 min
+  BAAI/bge-small-en-v1.5: 3812/3812 encoded, 86.2 texts/s, ETA 0.0 min
+  BAAI/bge-small-en-v1.5: 256/5516 encoded, 108.2 texts/s, ETA 0.8 min
+  BAAI/bge-small-en-v1.5: 512/5516 encoded, 98.4 texts/s, ETA 0.8 min
+  BAAI/bge-small-en-v1.5: 768/5516 encoded, 93.3 texts/s, ETA 0.8 min
+  BAAI/bge-small-en-v1.5: 1024/5516 encoded, 92.6 texts/s, ETA 0.8 min
+  BAAI/bge-small-en-v1.5: 1280/5516 encoded, 91.1 texts/s, ETA 0.8 min
+  BAAI/bge-small-en-v1.5: 1536/5516 encoded, 89.7 texts/s, ETA 0.7 min
+  BAAI/bge-small-en-v1.5: 1792/5516 encoded, 88.4 texts/s, ETA 0.7 min
+  BAAI/bge-small-en-v1.5: 2048/5516 encoded, 87.9 texts/s, ETA 0.7 min
+  BAAI/bge-small-en-v1.5: 2304/5516 encoded, 86.1 texts/s, ETA 0.6 min
+  BAAI/bge-small-en-v1.5: 2560/5516 encoded, 83.3 texts/s, ETA 0.6 min
+  BAAI/bge-small-en-v1.5: 2816/5516 encoded, 81.8 texts/s, ETA 0.6 min
+  BAAI/bge-small-en-v1.5: 3072/5516 encoded, 80.3 texts/s, ETA 0.5 min
+  BAAI/bge-small-en-v1.5: 3328/5516 encoded, 79.2 texts/s, ETA 0.5 min
+  BAAI/bge-small-en-v1.5: 3584/5516 encoded, 76.7 texts/s, ETA 0.4 min
+  BAAI/bge-small-en-v1.5: 3840/5516 encoded, 75.9 texts/s, ETA 0.4 min
+  BAAI/bge-small-en-v1.5: 4096/5516 encoded, 74.6 texts/s, ETA 0.3 min
+  BAAI/bge-small-en-v1.5: 4352/5516 encoded, 73.3 texts/s, ETA 0.3 min
+  BAAI/bge-small-en-v1.5: 4608/5516 encoded, 72.0 texts/s, ETA 0.2 min
+  BAAI/bge-small-en-v1.5: 4864/5516 encoded, 71.1 texts/s, ETA 0.2 min
+  BAAI/bge-small-en-v1.5: 5120/5516 encoded, 70.1 texts/s, ETA 0.1 min
+  BAAI/bge-small-en-v1.5: 5376/5516 encoded, 69.0 texts/s, ETA 0.0 min
+  BAAI/bge-small-en-v1.5: 5516/5516 encoded, 67.6 texts/s, ETA 0.0 min
+BAAI/bge-small-en-v1.5 [no_description]: 12248 texts, 3771 unique, encoded 1622 on cpu in 55.1s (29.4 texts/s); dim 384
+BAAI/bge-small-en-v1.5 [no_summary]: 12248 texts, 4077 unique, encoded 4077 on cpu in 98.3s (41.5 texts/s); dim 384
+BAAI/bge-small-en-v1.5 [structured_only]: 12248 texts, 1558 unique, encoded 1549 on cpu in 14.7s (105.4 texts/s); dim 384
+BAAI/bge-small-en-v1.5 [structured_first]: 12248 texts, 4297 unique, encoded 4297 on cpu in 72.3s (59.4 texts/s); dim 384
+BAAI/bge-small-en-v1.5 [free_text_only]: 12248 texts, 3812 unique, encoded 3812 on cpu in 44.2s (86.2 texts/s); dim 384
+BAAI/bge-small-en-v1.5 [full_with_batch_ids]: 12248 texts, 8771 unique, encoded 5516 on cpu in 81.6s (67.6 texts/s); dim 384
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 10385.82it/s]
+loaded BAAI/bge-base-en-v1.5 on cpu in 22.4s
+  BAAI/bge-base-en-v1.5: 256/4297 encoded, 46.9 texts/s, ETA 1.4 min
+  BAAI/bge-base-en-v1.5: 512/4297 encoded, 47.9 texts/s, ETA 1.3 min
+  BAAI/bge-base-en-v1.5: 768/4297 encoded, 45.6 texts/s, ETA 1.3 min
+  BAAI/bge-base-en-v1.5: 1024/4297 encoded, 44.6 texts/s, ETA 1.2 min
+  BAAI/bge-base-en-v1.5: 1280/4297 encoded, 42.3 texts/s, ETA 1.2 min
+  BAAI/bge-base-en-v1.5: 1536/4297 encoded, 40.5 texts/s, ETA 1.1 min
+  BAAI/bge-base-en-v1.5: 1792/4297 encoded, 38.6 texts/s, ETA 1.1 min
+  BAAI/bge-base-en-v1.5: 2048/4297 encoded, 36.3 texts/s, ETA 1.0 min
+  BAAI/bge-base-en-v1.5: 2304/4297 encoded, 33.9 texts/s, ETA 1.0 min
+  BAAI/bge-base-en-v1.5: 2560/4297 encoded, 32.2 texts/s, ETA 0.9 min
+  BAAI/bge-base-en-v1.5: 2816/4297 encoded, 30.6 texts/s, ETA 0.8 min
+  BAAI/bge-base-en-v1.5: 3072/4297 encoded, 29.1 texts/s, ETA 0.7 min
+  BAAI/bge-base-en-v1.5: 3328/4297 encoded, 27.7 texts/s, ETA 0.6 min
+  BAAI/bge-base-en-v1.5: 3584/4297 encoded, 26.4 texts/s, ETA 0.5 min
+  BAAI/bge-base-en-v1.5: 3840/4297 encoded, 24.7 texts/s, ETA 0.3 min
+  BAAI/bge-base-en-v1.5: 4096/4297 encoded, 23.3 texts/s, ETA 0.1 min
+  BAAI/bge-base-en-v1.5: 4297/4297 encoded, 22.2 texts/s, ETA 0.0 min
+BAAI/bge-base-en-v1.5 [full]: 12248 texts, 4297 unique, encoded 4297 on cpu in 193.2s (22.2 texts/s); dim 768
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 10659.99it/s]
+loaded NeuML/pubmedbert-base-embeddings on cpu in 11.7s
+  NeuML/pubmedbert-base-embeddings: 256/4297 encoded, 54.1 texts/s, ETA 1.2 min
+  NeuML/pubmedbert-base-embeddings: 512/4297 encoded, 54.6 texts/s, ETA 1.2 min
+  NeuML/pubmedbert-base-embeddings: 768/4297 encoded, 52.4 texts/s, ETA 1.1 min
+  NeuML/pubmedbert-base-embeddings: 1024/4297 encoded, 51.2 texts/s, ETA 1.1 min
+  NeuML/pubmedbert-base-embeddings: 1280/4297 encoded, 49.8 texts/s, ETA 1.0 min
+  NeuML/pubmedbert-base-embeddings: 1536/4297 encoded, 47.9 texts/s, ETA 1.0 min
+  NeuML/pubmedbert-base-embeddings: 1792/4297 encoded, 45.6 texts/s, ETA 0.9 min
+  NeuML/pubmedbert-base-embeddings: 2048/4297 encoded, 43.0 texts/s, ETA 0.9 min
+  NeuML/pubmedbert-base-embeddings: 2304/4297 encoded, 40.8 texts/s, ETA 0.8 min
+  NeuML/pubmedbert-base-embeddings: 2560/4297 encoded, 38.9 texts/s, ETA 0.7 min
+  NeuML/pubmedbert-base-embeddings: 2816/4297 encoded, 37.1 texts/s, ETA 0.7 min
+  NeuML/pubmedbert-base-embeddings: 3072/4297 encoded, 35.6 texts/s, ETA 0.6 min
+  NeuML/pubmedbert-base-embeddings: 3328/4297 encoded, 34.2 texts/s, ETA 0.5 min
+  NeuML/pubmedbert-base-embeddings: 3584/4297 encoded, 32.7 texts/s, ETA 0.4 min
+  NeuML/pubmedbert-base-embeddings: 3840/4297 encoded, 30.6 texts/s, ETA 0.2 min
+  NeuML/pubmedbert-base-embeddings: 4096/4297 encoded, 28.9 texts/s, ETA 0.1 min
+  NeuML/pubmedbert-base-embeddings: 4297/4297 encoded, 27.5 texts/s, ETA 0.0 min
+NeuML/pubmedbert-base-embeddings [full]: 12248 texts, 4297 unique, encoded 4297 on cpu in 156.5s (27.5 texts/s); dim 768
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] A new version of the following files was downloaded from https://huggingface.co/nomic-ai/nomic-bert-2048:
+- configuration_hf_nomic_bert.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+[transformers] A new version of the following files was downloaded from https://huggingface.co/nomic-ai/nomic-bert-2048:
+- modeling_hf_nomic_bert.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+<All keys matched successfully>
+loaded nomic-ai/nomic-embed-text-v1.5 on cpu in 15.0s
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/otto/Documents/agent_spaces/embedding-igvf/igvfd-embeddings/igvfsim/embed.py", line 231, in <module>
+    main()
+  File "/Users/otto/Documents/agent_spaces/embedding-igvf/igvfd-embeddings/igvfsim/embed.py", line 223, in main
+    emb, st = embed_texts(texts, model, prompt=prompt, device=a.device, max_len=a.max_len,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/otto/Documents/agent_spaces/embedding-igvf/igvfd-embeddings/igvfsim/embed.py", line 168, in embed_texts
+    emb = m.encode([t for _, t in part], prompt=prompt, batch_size=bs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/otto/Documents/agent_spaces/embedding-igvf/igvfd-embeddings/igvfsim/embed.py", line 140, in encode
+    return self.st.encode(texts, prompt=prompt or None, batch_size=batch_size,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/otto/Documents/agent_spaces/embedding-igvf/igvfd-embeddings/.venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in inference_mode
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/otto/Documents/agent_spaces/embedding-igvf/igvfd-embeddings/.venv/lib/python3.12/site-packages/sentence_transformers/util/decorators.py", line 46, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/otto/Documents/agent_spaces/embedding-igvf/igvfd-embeddings/.venv/lib/python3.12/site-packages/sentence_transformers/sentence_transformer/model.py", line 909, in encode
+    all_embeddings = self._inference(inputs, device=device, **inference_kwargs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/otto/Documents/agent_spaces/embedding-igvf/igvfd-embeddings/.venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in inference_mode
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/otto/Documents/agent_spaces/embedding-igvf/igvfd-embeddings/.venv/lib/python3.12/site-packages/sentence_transformers/sentence_transformer/model.py", line 977, in _inference
+    out_features = self(features, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/otto/Documents/agent_spaces/embedding-igvf/igvfd-embeddings/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/otto/Documents/agent_spaces/embedding-igvf/igvfd-embeddings/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/otto/Documents/agent_spaces/embedding-igvf/igvfd-embeddings/.venv/lib/python3.12/site-packages/sentence_transformers/base/model.py", line 642, in forward
+    input = module(input, **module_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/otto/Documents/agent_spaces/embedding-igvf/igvfd-embeddings/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/otto/Documents/agent_spaces/embedding-igvf/igvfd-embeddings/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/otto/Documents/agent_spaces/embedding-igvf/igvfd-embeddings/.venv/lib/python3.12/site-packages/sentence_transformers/base/modules/transformer.py", line 1692, in forward
+    model_output = model_method(**filtered_kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/agent/.cache/huggingface/modules/transformers_modules/nomic_hyphen_ai/nomic_hyphen_bert_hyphen_2048/7710840340a098cfb869c4f65e87cf2b1b70caca/modeling_hf_nomic_bert.py", line 1914, in forward
+    attention_mask = self.get_extended_attention_mask(attention_mask, hidden_states.shape[:-1])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/otto/Documents/agent_spaces/embedding-igvf/igvfd-embeddings/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1976, in __getattr__
+    raise AttributeError(
+AttributeError: 'NomicBertModel' object has no attribute 'get_extended_attention_mask'
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+BAAI/bge-small-en-v1.5 [full]: 12248 texts, 4297 unique, encoded 0 on None in 0.0s (all cached); dim 384
+BAAI/bge-base-en-v1.5 [full]: 12248 texts, 4297 unique, encoded 0 on None in 0.0s (all cached); dim 768
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 11402.39it/s]
+loaded intfloat/e5-base-v2 on cpu in 8.9s
+  intfloat/e5-base-v2: 256/4297 encoded, 21.1 texts/s, ETA 3.2 min
+  intfloat/e5-base-v2: 512/4297 encoded, 18.3 texts/s, ETA 3.5 min
+  intfloat/e5-base-v2: 768/4297 encoded, 22.3 texts/s, ETA 2.6 min
+  intfloat/e5-base-v2: 1024/4297 encoded, 23.8 texts/s, ETA 2.3 min
+  intfloat/e5-base-v2: 1280/4297 encoded, 24.2 texts/s, ETA 2.1 min
+  intfloat/e5-base-v2: 1536/4297 encoded, 24.2 texts/s, ETA 1.9 min
+  intfloat/e5-base-v2: 1792/4297 encoded, 23.8 texts/s, ETA 1.8 min
+  intfloat/e5-base-v2: 2048/4297 encoded, 23.8 texts/s, ETA 1.6 min
+  intfloat/e5-base-v2: 2304/4297 encoded, 23.6 texts/s, ETA 1.4 min
+  intfloat/e5-base-v2: 2560/4297 encoded, 23.4 texts/s, ETA 1.2 min
+  intfloat/e5-base-v2: 2816/4297 encoded, 23.0 texts/s, ETA 1.1 min
+  intfloat/e5-base-v2: 3072/4297 encoded, 22.6 texts/s, ETA 0.9 min
+  intfloat/e5-base-v2: 3328/4297 encoded, 22.2 texts/s, ETA 0.7 min
+  intfloat/e5-base-v2: 3584/4297 encoded, 21.6 texts/s, ETA 0.6 min
+  intfloat/e5-base-v2: 3840/4297 encoded, 20.6 texts/s, ETA 0.4 min
+  intfloat/e5-base-v2: 4096/4297 encoded, 19.8 texts/s, ETA 0.2 min
+  intfloat/e5-base-v2: 4297/4297 encoded, 19.1 texts/s, ETA 0.0 min
+intfloat/e5-base-v2 [full]: 12248 texts, 4297 unique, encoded 4297 on cpu in 225.4s (19.1 texts/s); dim 768
+NeuML/pubmedbert-base-embeddings [full]: 12248 texts, 4297 unique, encoded 0 on None in 0.0s (all cached); dim 768
+Qwen/Qwen3-Embedding-0.6B [full]: 12248 texts, 4297 unique, encoded 0 on None in 0.0s (all cached); dim 1024
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 5176.09it/s]
+loaded Qwen/Qwen3-Embedding-0.6B on cpu in 1.5s
+  Qwen/Qwen3-Embedding-0.6B: 256/4297 encoded, 8.9 texts/s, ETA 7.6 min
+  Qwen/Qwen3-Embedding-0.6B: 512/4297 encoded, 9.9 texts/s, ETA 6.4 min
+  Qwen/Qwen3-Embedding-0.6B: 768/4297 encoded, 9.9 texts/s, ETA 6.0 min
+  Qwen/Qwen3-Embedding-0.6B: 1024/4297 encoded, 9.8 texts/s, ETA 5.5 min
+  Qwen/Qwen3-Embedding-0.6B: 1280/4297 encoded, 9.7 texts/s, ETA 5.2 min
+  Qwen/Qwen3-Embedding-0.6B: 1536/4297 encoded, 9.4 texts/s, ETA 4.9 min
+  Qwen/Qwen3-Embedding-0.6B: 1792/4297 encoded, 9.1 texts/s, ETA 4.6 min
+  Qwen/Qwen3-Embedding-0.6B: 2048/4297 encoded, 8.7 texts/s, ETA 4.3 min
+  Qwen/Qwen3-Embedding-0.6B: 2304/4297 encoded, 8.3 texts/s, ETA 4.0 min
+  Qwen/Qwen3-Embedding-0.6B: 2560/4297 encoded, 7.9 texts/s, ETA 3.6 min
+  Qwen/Qwen3-Embedding-0.6B: 2816/4297 encoded, 7.7 texts/s, ETA 3.2 min
+  Qwen/Qwen3-Embedding-0.6B: 3072/4297 encoded, 7.4 texts/s, ETA 2.8 min
+  Qwen/Qwen3-Embedding-0.6B: 3328/4297 encoded, 7.1 texts/s, ETA 2.3 min
+  Qwen/Qwen3-Embedding-0.6B: 3584/4297 encoded, 6.8 texts/s, ETA 1.7 min
+  Qwen/Qwen3-Embedding-0.6B: 3840/4297 encoded, 6.4 texts/s, ETA 1.2 min
+  Qwen/Qwen3-Embedding-0.6B: 4096/4297 encoded, 6.1 texts/s, ETA 0.5 min
+  Qwen/Qwen3-Embedding-0.6B: 4297/4297 encoded, 5.8 texts/s, ETA 0.0 min
+Qwen/Qwen3-Embedding-0.6B [full sym]: 12248 texts, 4297 unique, encoded 4297 on cpu in 735.5s (5.8 texts/s); dim 1024
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+BAAI/bge-small-en-v1.5 [full]: 12248 texts, 4297 unique, encoded 0 on None in 0.0s (all cached); dim 384
+BAAI/bge-small-en-v1.5 [no_description]: 12248 texts, 3771 unique, encoded 0 on None in 0.0s (all cached); dim 384
+BAAI/bge-small-en-v1.5 [no_summary]: 12248 texts, 4077 unique, encoded 0 on None in 0.0s (all cached); dim 384
+BAAI/bge-small-en-v1.5 [structured_only]: 12248 texts, 1558 unique, encoded 0 on None in 0.0s (all cached); dim 384
+BAAI/bge-small-en-v1.5 [structured_first]: 12248 texts, 4297 unique, encoded 0 on None in 0.0s (all cached); dim 384
+BAAI/bge-small-en-v1.5 [free_text_only]: 12248 texts, 3812 unique, encoded 0 on None in 0.0s (all cached); dim 384
+BAAI/bge-small-en-v1.5 [full_with_batch_ids]: 12248 texts, 8771 unique, encoded 0 on None in 0.0s (all cached); dim 384
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 5147.77it/s]
+loaded Qwen/Qwen3-Embedding-0.6B on cpu in 1.5s
+  Qwen/Qwen3-Embedding-0.6B: 256/4297 encoded, 11.2 texts/s, ETA 6.0 min
+  Qwen/Qwen3-Embedding-0.6B: 512/4297 encoded, 9.9 texts/s, ETA 6.3 min
+  Qwen/Qwen3-Embedding-0.6B: 768/4297 encoded, 10.7 texts/s, ETA 5.5 min
+  Qwen/Qwen3-Embedding-0.6B: 1024/4297 encoded, 11.1 texts/s, ETA 4.9 min
+  Qwen/Qwen3-Embedding-0.6B: 1280/4297 encoded, 11.1 texts/s, ETA 4.5 min
+  Qwen/Qwen3-Embedding-0.6B: 1536/4297 encoded, 10.9 texts/s, ETA 4.2 min
+  Qwen/Qwen3-Embedding-0.6B: 1792/4297 encoded, 10.6 texts/s, ETA 3.9 min
+  Qwen/Qwen3-Embedding-0.6B: 2048/4297 encoded, 10.0 texts/s, ETA 3.7 min
+  Qwen/Qwen3-Embedding-0.6B: 2304/4297 encoded, 9.5 texts/s, ETA 3.5 min
+  Qwen/Qwen3-Embedding-0.6B: 2560/4297 encoded, 9.1 texts/s, ETA 3.2 min
+  Qwen/Qwen3-Embedding-0.6B: 2816/4297 encoded, 8.7 texts/s, ETA 2.8 min
+  Qwen/Qwen3-Embedding-0.6B: 3072/4297 encoded, 8.4 texts/s, ETA 2.4 min
+  Qwen/Qwen3-Embedding-0.6B: 3328/4297 encoded, 8.0 texts/s, ETA 2.0 min
+  Qwen/Qwen3-Embedding-0.6B: 3584/4297 encoded, 7.6 texts/s, ETA 1.6 min
+  Qwen/Qwen3-Embedding-0.6B: 3840/4297 encoded, 7.2 texts/s, ETA 1.1 min
+  Qwen/Qwen3-Embedding-0.6B: 4096/4297 encoded, 6.8 texts/s, ETA 0.5 min
+  Qwen/Qwen3-Embedding-0.6B: 4297/4297 encoded, 6.5 texts/s, ETA 0.0 min
+  Qwen/Qwen3-Embedding-0.6B: 256/1622 encoded, 17.9 texts/s, ETA 1.3 min
+  Qwen/Qwen3-Embedding-0.6B: 512/1622 encoded, 13.4 texts/s, ETA 1.4 min
+  Qwen/Qwen3-Embedding-0.6B: 768/1622 encoded, 10.3 texts/s, ETA 1.4 min
+  Qwen/Qwen3-Embedding-0.6B: 1024/1622 encoded, 9.1 texts/s, ETA 1.1 min
+  Qwen/Qwen3-Embedding-0.6B: 1280/1622 encoded, 8.4 texts/s, ETA 0.7 min
+  Qwen/Qwen3-Embedding-0.6B: 1536/1622 encoded, 7.7 texts/s, ETA 0.2 min
+  Qwen/Qwen3-Embedding-0.6B: 1622/1622 encoded, 7.2 texts/s, ETA 0.0 min
+Qwen/Qwen3-Embedding-0.6B [structured_first]: 12248 texts, 4297 unique, encoded 4297 on cpu in 665.9s (6.5 texts/s); dim 1024
+Qwen/Qwen3-Embedding-0.6B [no_description]: 12248 texts, 3771 unique, encoded 1622 on cpu in 225.2s (7.2 texts/s); dim 1024
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 8596.30it/s]
+loaded BAAI/bge-small-en-v1.5 on cpu in 0.5s
+  BAAI/bge-small-en-v1.5: 256/3309 encoded, 81.9 texts/s, ETA 0.6 min
+  BAAI/bge-small-en-v1.5: 512/3309 encoded, 73.5 texts/s, ETA 0.6 min
+  BAAI/bge-small-en-v1.5: 768/3309 encoded, 58.0 texts/s, ETA 0.7 min
+  BAAI/bge-small-en-v1.5: 1024/3309 encoded, 50.3 texts/s, ETA 0.8 min
+  BAAI/bge-small-en-v1.5: 1280/3309 encoded, 47.6 texts/s, ETA 0.7 min
+  BAAI/bge-small-en-v1.5: 1536/3309 encoded, 46.6 texts/s, ETA 0.6 min
+  BAAI/bge-small-en-v1.5: 1792/3309 encoded, 45.5 texts/s, ETA 0.6 min
+  BAAI/bge-small-en-v1.5: 2048/3309 encoded, 45.9 texts/s, ETA 0.5 min
+  BAAI/bge-small-en-v1.5: 2304/3309 encoded, 46.0 texts/s, ETA 0.4 min
+  BAAI/bge-small-en-v1.5: 2560/3309 encoded, 45.4 texts/s, ETA 0.3 min
+  BAAI/bge-small-en-v1.5: 2816/3309 encoded, 44.2 texts/s, ETA 0.2 min
+  BAAI/bge-small-en-v1.5: 3072/3309 encoded, 43.2 texts/s, ETA 0.1 min
+  BAAI/bge-small-en-v1.5: 3309/3309 encoded, 42.0 texts/s, ETA 0.0 min
+  BAAI/bge-small-en-v1.5: 256/3792 encoded, 74.7 texts/s, ETA 0.8 min
+  BAAI/bge-small-en-v1.5: 512/3792 encoded, 73.6 texts/s, ETA 0.7 min
+  BAAI/bge-small-en-v1.5: 768/3792 encoded, 72.6 texts/s, ETA 0.7 min
+  BAAI/bge-small-en-v1.5: 1024/3792 encoded, 69.0 texts/s, ETA 0.7 min
+  BAAI/bge-small-en-v1.5: 1280/3792 encoded, 65.5 texts/s, ETA 0.6 min
+  BAAI/bge-small-en-v1.5: 1536/3792 encoded, 62.2 texts/s, ETA 0.6 min
+  BAAI/bge-small-en-v1.5: 1792/3792 encoded, 59.1 texts/s, ETA 0.6 min
+  BAAI/bge-small-en-v1.5: 2048/3792 encoded, 56.1 texts/s, ETA 0.5 min
+  BAAI/bge-small-en-v1.5: 2304/3792 encoded, 53.9 texts/s, ETA 0.5 min
+  BAAI/bge-small-en-v1.5: 2560/3792 encoded, 51.4 texts/s, ETA 0.4 min
+  BAAI/bge-small-en-v1.5: 2816/3792 encoded, 48.9 texts/s, ETA 0.3 min
+  BAAI/bge-small-en-v1.5: 3072/3792 encoded, 46.2 texts/s, ETA 0.3 min
+  BAAI/bge-small-en-v1.5: 3328/3792 encoded, 44.4 texts/s, ETA 0.2 min
+  BAAI/bge-small-en-v1.5: 3584/3792 encoded, 42.4 texts/s, ETA 0.1 min
+  BAAI/bge-small-en-v1.5: 3792/3792 encoded, 40.9 texts/s, ETA 0.0 min
+  Qwen/Qwen3-Embedding-0.6B: 256/3839 encoded, 8.8 texts/s, ETA 6.8 min
+  Qwen/Qwen3-Embedding-0.6B: 512/3839 encoded, 8.4 texts/s, ETA 6.6 min
+  Qwen/Qwen3-Embedding-0.6B: 768/3839 encoded, 8.3 texts/s, ETA 6.2 min
+  Qwen/Qwen3-Embedding-0.6B: 1024/3839 encoded, 7.9 texts/s, ETA 5.9 min
+  Qwen/Qwen3-Embedding-0.6B: 1280/3839 encoded, 7.5 texts/s, ETA 5.7 min
+  Qwen/Qwen3-Embedding-0.6B: 1536/3839 encoded, 6.9 texts/s, ETA 5.6 min
+  Qwen/Qwen3-Embedding-0.6B: 1792/3839 encoded, 6.5 texts/s, ETA 5.2 min
+  Qwen/Qwen3-Embedding-0.6B: 2048/3839 encoded, 6.2 texts/s, ETA 4.8 min
+  Qwen/Qwen3-Embedding-0.6B: 2304/3839 encoded, 5.9 texts/s, ETA 4.3 min
+  Qwen/Qwen3-Embedding-0.6B: 2560/3839 encoded, 5.6 texts/s, ETA 3.8 min
+  Qwen/Qwen3-Embedding-0.6B: 2816/3839 encoded, 5.3 texts/s, ETA 3.2 min
+  Qwen/Qwen3-Embedding-0.6B: 3072/3839 encoded, 5.0 texts/s, ETA 2.6 min
+  Qwen/Qwen3-Embedding-0.6B: 3328/3839 encoded, 4.8 texts/s, ETA 1.8 min
+  Qwen/Qwen3-Embedding-0.6B: 3584/3839 encoded, 4.6 texts/s, ETA 0.9 min
+  Qwen/Qwen3-Embedding-0.6B: 3839/3839 encoded, 4.4 texts/s, ETA 0.0 min
+BAAI/bge-small-en-v1.5 [full_syn]: 12248 texts, 4297 unique, encoded 3309 on cpu in 78.8s (42.0 texts/s); dim 384
+BAAI/bge-small-en-v1.5 [full_defs]: 12248 texts, 4297 unique, encoded 3792 on cpu in 92.6s (41.0 texts/s); dim 384
+Qwen/Qwen3-Embedding-0.6B [full_defs]: 12248 texts, 4297 unique, encoded 3839 on cpu in 877.4s (4.4 texts/s); dim 1024
+QUEUE_DONE
